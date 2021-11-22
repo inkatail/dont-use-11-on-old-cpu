@@ -4,7 +4,9 @@ Yes, this is a wall of text, but I urge you to read all of this in order to gain
 
 ## Reasons why installing Windows 11 on an unsupported CPU is a bad idea
 ### Virtualization-based security
-Main reason why your CPU is unsupported (thank your favorite CPU manufacturer for that, not Microsoft - I elaborate on this later). Unsupported CPUs do not support MBEC. Without MBEC, the processor will have to simulate virtualization-based security in the future when Windows 11 enables it by default for everyone and you will lose massive amounts of performance[^1]. VBS being enabled is not an issue on supported CPUs and comes with a minimal performance hit, if any. On unsupported CPUs... it will be **bad**. By locking out CPUs who do not support VBS & MBEC from installing Windows 11, they are actively trying to avoid a Windows Vista situation where the performance was worse than desired.
+Main reason why your CPU is unsupported (thank your favorite CPU manufacturer for that, not Microsoft - I elaborate on this later). Unsupported CPUs do not support MBEC. Without MBEC, the processor will have to simulate virtualization-based security in the future when Windows 11 enables it by default for everyone and you will lose massive amounts of performance[^1]. VBS being enabled is not an issue on supported CPUs and comes with a minimal performance hit, if any. On unsupported CPUs... it will be **bad**. 
+
+By locking out CPUs who do not support VBS & MBEC from installing Windows 11, they are actively trying to avoid a Windows Vista situation where the performance was worse than desired.
 
 A note about the 7th generation of Intel Core CPUs, codenamed "Kaby Lake" - its CPUs **do** support VBS and MBEC. However, they are still **not** on Microsoft's supported CPU list, and the generation has reached its end of life, and as such manufacturer support for these CPUs is completely halted. See "Reliability and support" below for more information.
 
